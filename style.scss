@@ -1,0 +1,194 @@
+$bg-color: #1e1e1e;
+$use-color: #4c70ff;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.workspaces {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: $bg-color;
+
+	nav {
+		.nav-special {
+			position: absolute;
+			width: 988px;
+			height: 75px;
+			left: 226px;
+			top: 0px;
+			background: #1d1e27;
+			box-shadow: 0px 5px 50px -30px rgba(0, 0, 0, 0.2);
+			border-radius: 0px 0px 20px 20px;
+
+			.icon {
+				position: absolute;
+				left: 3.66%;
+				right: 79.9%;
+				top: 26.62%;
+				bottom: 94.1%;
+			}
+			.vector {
+				position: absolute;
+				left: 4.8%;
+				right: 80.52%;
+				top: 39.62%;
+				bottom: 95.06%;
+			}
+			h1 {
+				position: absolute;
+				width: 110px;
+				height: 29px;
+				left: 80.05px;
+				top: 23.93px;
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 600;
+				font-size: 20.9389px;
+				line-height: 29px;
+				color: #f4f8fb;
+
+				a {
+					text-decoration: none;
+					color: #f4f8fb;
+				}
+			}
+
+			.ws {
+				position: absolute;
+				width: 142px;
+				height: 45px;
+				left: 673px;
+				top: 13.5px;
+				background: #252735;
+				box-shadow: 0px 13px 50px -9px rgba(0, 0, 0, 0.2);
+				border-radius: 10px;
+
+				h3 {
+					font-family: "Poppins";
+					font-weight: 400;
+					font-size: 14.4px;
+					color: #f4f8fb;
+					line-height: 43px;
+					padding-left: 13px;
+
+					a {
+						text-decoration: none;
+						color: #f4f8fb;
+					}
+				}
+				img {
+					position: absolute;
+					left: 81.31%;
+					right: 29.9%;
+					top: 39.63%;
+				}
+			}
+
+			.rec {
+				position: absolute;
+				left: 85.69%;
+				right: 25.42%;
+				top: 34.11%;
+				bottom: 94.67%;
+			}
+			.dot {
+				position: absolute;
+				left: 87%;
+				right: 25.42%;
+				top: 34.11%;
+				bottom: 96.22%;
+			}
+			.pic {
+				position: absolute;
+				width: 36.49px;
+				height: 36.49px;
+				left: 90.49%;
+				top: 34.11%;
+				background: url(image.png);
+				border-radius: 27.7607px;
+			}
+			.vectorr {
+				position: absolute;
+				right: 18.4%;
+				left: 95%;
+				top: 41.11%;
+				bottom: 94.78%;
+			}
+		}
+
+		.ht {
+			position: absolute;
+			width: 123px;
+			height: 43.67px;
+			left: 1298px;
+			top: 18.66px;
+			background: #ff7877;
+			box-shadow: 0px 11.587px 44.5652px -8.02174px rgba(0, 0, 0, 0.2);
+			border-radius: 8.91304px;
+
+			img {
+				position: absolute;
+				left: 17.12%;
+				right: 8.97%;
+				top: 28.86%;
+				bottom: 94.38%;
+			}
+			h3 {
+				text-align: center;
+				font-family: "Poppins";
+				font-weight: 400;
+				line-height: 41.3px;
+				font-size: 13.3696px;
+				color: #ffffff;
+				padding-left: 27px;
+
+				a {
+					text-decoration: none;
+					color: #f4f8fb;
+				}
+			}
+		}
+	}
+
+	.workspaces-body {
+		.elispe {
+			.elps {
+				position: absolute;
+				width: 100px;
+				height: 100px;
+				left: 96px;
+				top: 127px;
+			}
+			.add {
+				position: absolute;
+				left: 8.2%;
+				right: 88.54%;
+				top: 21.7%;
+				bottom: 78.22%;
+			}
+			h3 {
+				text-align: center;
+				line-height: 27px;
+				position: absolute;
+				background: #252735;
+				box-shadow: 0px 12.5273px 48.1818px -8.67273px rgba(0, 0, 0, 0.2);
+				border-radius: 10.0952px;
+				width: 135px;
+				height: 28px;
+				left: 80.49px;
+				top: 250.82px;
+				font-family: "Poppins";
+				font-weight: 400;
+				font-size: 12.4px;
+
+				a {
+					text-decoration: none;
+					color: #f4f8fb;
+				}
+			}
+		}
+	}
+}
