@@ -196,3 +196,13 @@
   text-decoration: none;
   color: #f4f8fb;
 }
+
+.create {
+  position: absolute;
+  width: 988px;
+  height: 530px;
+  left: 226px;
+  top: 154px;
+  background: #1d1e27;
+  border-radius: 20px;
+}
