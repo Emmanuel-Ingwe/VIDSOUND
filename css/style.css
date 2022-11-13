@@ -216,10 +216,13 @@
 }
 
 .create form {
-  padding: 100px;
+  position: absolute;
+  top: 30%;
+  left: 17%;
 }
 
 .create form h3 {
+  padding-bottom: 12px;
   font-family: "Poppins";
   font-weight: 400;
   font-size: 14.6858px;
@@ -254,7 +257,7 @@
 }
 
 .create form .join-input h3 a {
-  color: #4c6efb;
+  color: #4c70ff;
   text-decoration: none;
 }
 
@@ -281,14 +284,10 @@
 }
 
 .create .buttons {
-  display: block;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 auto;
+  position: absolute;
+  border: 10px solid red;
+  top: 70%;
+  left: 40%;
 }
 
 .create .buttons img {

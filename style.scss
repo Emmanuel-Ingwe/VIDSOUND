@@ -211,9 +211,12 @@ $use-color: #4c70ff;
 	}
 
 	form {
-		padding: 100px;
+		position: absolute;
+		top: 30%;
+		left: 17%;
 
 		h3 {
+			padding-bottom: 12px;
 			font-family: "Poppins";
 			font-weight: 400;
 			font-size: 14.6858px;
@@ -239,7 +242,7 @@ $use-color: #4c70ff;
 				font-size: 14.6858px;
 
 				a {
-					color: #4c6efb;
+					color: $use-color;
 					text-decoration: none;
 				}
 			}
@@ -263,11 +266,12 @@ $use-color: #4c70ff;
 			}
 		}
 	}
+
 	.buttons {
-		display: block;
-		justify-content: center;
-		align-items: center;
-		margin: 0 auto;
+		position: absolute;
+		border: 10px solid red;
+		top: 70%;
+		left: 40%;
 
 		img {
 			align-items: center;
