@@ -4,6 +4,10 @@ $use-color: #4c70ff;
 * {
 	margin: 0;
 	padding: 0;
+
+	a {
+		text-decoration: none;
+	}
 }
 
 .workspaces {
@@ -195,7 +199,7 @@ $use-color: #4c70ff;
 .create {
 	position: absolute;
 	width: 988px;
-	height: 530px;
+	height: 560px;
 	left: 226px;
 	top: 154px;
 	background: #1d1e27;
@@ -212,7 +216,7 @@ $use-color: #4c70ff;
 
 	form {
 		position: absolute;
-		top: 30%;
+		top: 26%;
 		left: 17%;
 
 		h3 {
@@ -225,18 +229,19 @@ $use-color: #4c70ff;
 		}
 		input {
 			width: 657px;
-			height: 62.57px;
+			height: 51.57px;
 			background: #171821;
 			border: 1.04899px solid rgba(235, 235, 235, 0.07);
 			box-shadow: 0px 0px 41.9595px -16.7838px rgba(0, 0, 0, 0.1);
 			border-radius: 5.24494px;
 			outline: none;
+			padding: 10px;
+			margin-bottom: 44px;
 		}
-		.join-input {
-			align-items: center;
-			justify-content: center;
 
+		.join-input {
 			h3 {
+				padding-bottom: 25px;
 				font-family: "Poppins";
 				font-weight: 400;
 				font-size: 14.6858px;
@@ -247,17 +252,18 @@ $use-color: #4c70ff;
 				}
 			}
 			input {
-				width: 321.49px;
-				height: 62.57px;
+				width: 307.49px;
+				height: 50.57px;
 				background: #171821;
 				border: 1.04899px solid rgba(235, 235, 235, 0.07);
 				box-shadow: 0px 0px 41.9595px -16.7838px rgba(0, 0, 0, 0.1);
 				border-radius: 5.24494px;
 				outline: none;
+				margin-right: 20px;
 			}
 			.in-2 {
-				width: 321.49px;
-				height: 62.57px;
+				width: 307.49px;
+				height: 50.57px;
 				background: #171821;
 				border: 1.04899px solid rgba(235, 235, 235, 0.07);
 				box-shadow: 0px 0px 41.9595px -16.7838px rgba(0, 0, 0, 0.1);
@@ -269,20 +275,18 @@ $use-color: #4c70ff;
 
 	.buttons {
 		position: absolute;
-		border: 10px solid red;
-		top: 70%;
+		top: 90%;
 		left: 40%;
 
 		img {
 			align-items: center;
 			width: 35px;
 			height: 10px;
+			padding-right: 9px;
 		}
 		.btn-back {
-			width: 36px;
-			height: 8px;
+			height: 0.1px;
 			font-family: "Poppins";
-			font-style: normal;
 			font-weight: 400;
 			font-size: 14.8345px;
 			line-height: 7px;
@@ -290,11 +294,15 @@ $use-color: #4c70ff;
 			background: none;
 		}
 		.btn-create {
-			box-sizing: border-box;
-			position: absolute;
 			width: 184.48px;
 			height: 45.41px;
 			background: #4c70ff;
+			border-radius: 6px;
+			font-family: "Poppins";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14.8345px;
+			color: #fff;
 		}
 	}
 }

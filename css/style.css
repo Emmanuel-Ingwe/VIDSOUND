@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+* a {
+  text-decoration: none;
+}
+
 .workspaces {
   position: relative;
   width: 100%;
@@ -199,7 +203,7 @@
 .create {
   position: absolute;
   width: 988px;
-  height: 530px;
+  height: 560px;
   left: 226px;
   top: 154px;
   background: #1d1e27;
@@ -217,7 +221,7 @@
 
 .create form {
   position: absolute;
-  top: 30%;
+  top: 26%;
   left: 17%;
 }
 
@@ -232,25 +236,19 @@
 
 .create form input {
   width: 657px;
-  height: 62.57px;
+  height: 51.57px;
   background: #171821;
   border: 1.04899px solid rgba(235, 235, 235, 0.07);
   -webkit-box-shadow: 0px 0px 41.9595px -16.7838px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 41.9595px -16.7838px rgba(0, 0, 0, 0.1);
   border-radius: 5.24494px;
   outline: none;
-}
-
-.create form .join-input {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  padding: 10px;
+  margin-bottom: 44px;
 }
 
 .create form .join-input h3 {
+  padding-bottom: 25px;
   font-family: "Poppins";
   font-weight: 400;
   font-size: 14.6858px;
@@ -262,19 +260,20 @@
 }
 
 .create form .join-input input {
-  width: 321.49px;
-  height: 62.57px;
+  width: 307.49px;
+  height: 50.57px;
   background: #171821;
   border: 1.04899px solid rgba(235, 235, 235, 0.07);
   -webkit-box-shadow: 0px 0px 41.9595px -16.7838px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 41.9595px -16.7838px rgba(0, 0, 0, 0.1);
   border-radius: 5.24494px;
   outline: none;
+  margin-right: 20px;
 }
 
 .create form .join-input .in-2 {
-  width: 321.49px;
-  height: 62.57px;
+  width: 307.49px;
+  height: 50.57px;
   background: #171821;
   border: 1.04899px solid rgba(235, 235, 235, 0.07);
   -webkit-box-shadow: 0px 0px 41.9595px -16.7838px rgba(0, 0, 0, 0.1);
@@ -285,8 +284,7 @@
 
 .create .buttons {
   position: absolute;
-  border: 10px solid red;
-  top: 70%;
+  top: 90%;
   left: 40%;
 }
 
@@ -296,13 +294,12 @@
           align-items: center;
   width: 35px;
   height: 10px;
+  padding-right: 9px;
 }
 
 .create .buttons .btn-back {
-  width: 36px;
-  height: 8px;
+  height: 0.1px;
   font-family: "Poppins";
-  font-style: normal;
   font-weight: 400;
   font-size: 14.8345px;
   line-height: 7px;
@@ -311,10 +308,13 @@
 }
 
 .create .buttons .btn-create {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  position: absolute;
   width: 184.48px;
   height: 45.41px;
   background: #4c70ff;
+  border-radius: 6px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.8345px;
+  color: #fff;
 }
