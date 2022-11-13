@@ -10,7 +10,7 @@
 .workspaces {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background: #1e1e1e;
 }
 
@@ -174,7 +174,7 @@
   position: absolute;
   left: 8.2%;
   right: 88.54%;
-  top: 21.7%;
+  top: 20.4%;
   bottom: 78.22%;
 }
 
@@ -208,6 +208,7 @@
   top: 154px;
   background: #1d1e27;
   border-radius: 20px;
+  margin-bottom: 100px;
 }
 
 .create h1 {
@@ -284,7 +285,7 @@
 
 .create .buttons {
   position: absolute;
-  top: 90%;
+  top: 83%;
   left: 40%;
 }
 
@@ -302,9 +303,14 @@
   font-family: "Poppins";
   font-weight: 400;
   font-size: 14.8345px;
-  line-height: 7px;
-  color: #6c6f92;
   background: none;
+  border: none;
+  line-height: 7px;
+  padding-right: 47px;
+}
+
+.create .buttons .btn-back a {
+  color: #6c6f92;
 }
 
 .create .buttons .btn-create {
@@ -316,5 +322,9 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14.8345px;
+  color: #fff;
+}
+
+.create .buttons .btn-create a {
   color: #fff;
 }
