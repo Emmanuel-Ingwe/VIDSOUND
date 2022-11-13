@@ -157,6 +157,8 @@ $use-color: #4c70ff;
 	}
 
 	.workspaces-body {
+		display: flex;
+
 		.elispe {
 			.elps {
 				position: absolute;

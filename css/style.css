@@ -162,6 +162,12 @@
   color: #f4f8fb;
 }
 
+.workspaces .workspaces-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .workspaces .workspaces-body .elispe .elps {
   position: absolute;
   width: 100px;
