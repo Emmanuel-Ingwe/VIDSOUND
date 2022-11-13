@@ -14,63 +14,80 @@
   background: #1e1e1e;
 }
 
+.workspaces nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  /* margin: 0 auto; */
+}
+
 .workspaces nav .nav-special {
-  position: absolute;
-  width: 988px;
-  height: 75px;
-  left: 226px;
-  top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 998px;
+  /* margin: 0 auto; */
+  padding: 23px 34px;
+  /* flex: 2; */
+  margin-left: 50px;
   background: #1d1e27;
   -webkit-box-shadow: 0px 5px 50px -30px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 5px 50px -30px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 20px 20px;
 }
 
-.workspaces nav .nav-special .icon {
-  position: absolute;
-  left: 3.66%;
-  right: 79.9%;
-  top: 26.62%;
-  bottom: 94.1%;
+.workspaces nav .nav-special .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.workspaces nav .nav-special .vector {
-  position: absolute;
-  left: 4.8%;
-  right: 80.52%;
-  top: 39.62%;
-  bottom: 95.06%;
-}
-
-.workspaces nav .nav-special h1 {
-  position: absolute;
-  width: 110px;
-  height: 29px;
-  left: 80.05px;
-  top: 23.93px;
+.workspaces nav .nav-special .logo a {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 20.9389px;
   line-height: 29px;
+  /* identical to box height, or 138% */
+  padding-left: 10px;
   color: #f4f8fb;
 }
 
-.workspaces nav .nav-special h1 a {
-  text-decoration: none;
-  color: #f4f8fb;
+.workspaces nav .nav-special .right-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.workspaces nav .nav-special .right-nav > img,
+.workspaces nav .nav-special .right-nav a {
+  padding-left: 22px;
 }
 
 .workspaces nav .nav-special .ws {
-  position: absolute;
-  width: 142px;
-  height: 45px;
-  left: 663px;
-  top: 13.5px;
-  background: #252735;
-  -webkit-box-shadow: 0px 13px 50px -9px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 13px 50px -9px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7px 13px;
   border-radius: 10px;
+  background: #252735;
 }
 
 .workspaces nav .nav-special .ws h3 {
@@ -79,87 +96,24 @@
   font-size: 14.4px;
   color: #f4f8fb;
   line-height: 43px;
-  padding-left: 13px;
+  padding-right: 21px;
+  cursor: pointer;
 }
 
 .workspaces nav .nav-special .ws h3 a {
   text-decoration: none;
   color: #f4f8fb;
+  padding-left: 0 !important;
 }
 
-.workspaces nav .nav-special .ws img {
-  position: absolute;
-  left: 81.31%;
-  right: 29.9%;
-  top: 39.63%;
+.workspaces nav .nav-special .ws .rec {
+  padding-right: 21px;
+  cursor: pointer;
 }
 
-.workspaces nav .nav-special .rec {
-  position: absolute;
-  left: 84.4%;
-  right: 25.42%;
-  top: 34.11%;
-  bottom: 94.67%;
-}
-
-.workspaces nav .nav-special .dot {
-  position: absolute;
-  left: 85.9%;
-  right: 25.42%;
-  top: 34.11%;
-  bottom: 96.22%;
-}
-
-.workspaces nav .nav-special .pic {
-  position: absolute;
-  width: 36.49px;
-  height: 36.49px;
-  left: 89.2%;
-  top: 28%;
-  border-radius: 27.7607px;
-}
-
-.workspaces nav .nav-special .vectorr {
-  position: absolute;
-  right: 18.4%;
-  left: 95%;
-  top: 41.11%;
-  bottom: 94.78%;
-}
-
-.workspaces nav .ht {
-  position: absolute;
-  width: 123px;
-  height: 43.67px;
-  left: 1298px;
-  top: 18.66px;
-  background: #ff7877;
-  -webkit-box-shadow: 0px 11.587px 44.5652px -8.02174px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 11.587px 44.5652px -8.02174px rgba(0, 0, 0, 0.2);
-  border-radius: 8.91304px;
-}
-
-.workspaces nav .ht img {
-  position: absolute;
-  left: 17.12%;
-  right: 8.97%;
-  top: 28.86%;
-  bottom: 94.38%;
-}
-
-.workspaces nav .ht h3 {
-  text-align: center;
-  font-family: "Poppins";
-  font-weight: 400;
-  line-height: 41.3px;
-  font-size: 13.3696px;
-  color: #ffffff;
-  padding-left: 27px;
-}
-
-.workspaces nav .ht h3 a {
-  text-decoration: none;
-  color: #f4f8fb;
+.workspaces nav .nav-special .ws .pic {
+  padding-right: 22px;
+  cursor: pointer;
 }
 
 .workspaces .workspaces-body {
@@ -172,13 +126,13 @@
   position: absolute;
   width: 100px;
   height: 100px;
-  left: 96px;
+  left: 56px;
   top: 127px;
 }
 
 .workspaces .workspaces-body .elispe .add {
   position: absolute;
-  left: 8.2%;
+  left: 5.77%;
   right: 88.54%;
   top: 20.4%;
   bottom: 78.22%;
@@ -194,7 +148,7 @@
   border-radius: 10.0952px;
   width: 135px;
   height: 28px;
-  left: 80.49px;
+  left: 40.29px;
   top: 250.82px;
   font-family: "Poppins";
   font-weight: 400;
@@ -204,6 +158,32 @@
 .workspaces .workspaces-body .elispe h3 a {
   text-decoration: none;
   color: #f4f8fb;
+}
+
+.workspaces .workspaces-body .projects .my-project {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  width: 294px;
+  height: 157px;
+  left: 226px;
+  top: 127px;
+  background: #1d1e27;
+  border: 1px solid #2e344e;
+  border-radius: 10px;
+}
+
+.workspaces .workspaces-body .projects .create-project {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  width: 185px;
+  height: 157px;
+  left: 536px;
+  top: 127px;
+  background: #1d1e27;
+  border: 1.6px dashed #4c70ff;
+  border-radius: 10px;
 }
 
 .create {

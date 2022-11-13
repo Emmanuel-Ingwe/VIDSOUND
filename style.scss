@@ -17,58 +17,83 @@ $use-color: #4c70ff;
 	background: $bg-color;
 
 	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		/* margin: 0 auto; */
+
 		.nav-special {
-			position: absolute;
-			width: 988px;
-			height: 75px;
-			left: 226px;
-			top: 0px;
+			display: flex;
+			justify-content: space-between;
+			width: 998px;
+			/* margin: 0 auto; */
+			padding: 23px 34px;
+			/* flex: 2; */
+			margin-left: 50px;
 			background: #1d1e27;
 			box-shadow: 0px 5px 50px -30px rgba(0, 0, 0, 0.2);
 			border-radius: 0px 0px 20px 20px;
-
-			.icon {
-				position: absolute;
-				left: 3.66%;
-				right: 79.9%;
-				top: 26.62%;
-				bottom: 94.1%;
-			}
-			.vector {
-				position: absolute;
-				left: 4.8%;
-				right: 80.52%;
-				top: 39.62%;
-				bottom: 95.06%;
-			}
-			h1 {
-				position: absolute;
-				width: 110px;
-				height: 29px;
-				left: 80.05px;
-				top: 23.93px;
-				font-family: "Poppins";
-				font-style: normal;
-				font-weight: 600;
-				font-size: 20.9389px;
-				line-height: 29px;
-				color: #f4f8fb;
-
+			.logo {
+				display: flex;
+				align-items: center;
 				a {
-					text-decoration: none;
+					font-family: "Poppins";
+					font-style: normal;
+					font-weight: 600;
+					font-size: 20.9389px;
+					line-height: 29px;
+					/* identical to box height, or 138% */
+					padding-left: 10px;
 					color: #f4f8fb;
 				}
 			}
+			.right-nav {
+				display: flex;
+				align-items: center;
+				& > img,
+				a {
+					padding-left: 22px;
+				}
+			}
+			// .icon {
+			// 	position: absolute;
+			// 	left: 3.66%;
+			// 	right: 79.9%;
+			// 	top: 26.62%;
+			// 	bottom: 94.1%;
+			// }
+			// .vector {
+			// 	position: absolute;
+			// 	left: 4.8%;
+			// 	right: 80.52%;
+			// 	top: 39.62%;
+			// 	bottom: 95.06%;
+			// }
+			// h1 {
+			// 	position: absolute;
+			// 	width: 110px;
+			// 	height: 29px;
+			// 	left: 80.05px;
+			// 	top: 23.93px;
+			// 	font-family: "Poppins";
+			// 	font-style: normal;
+			// 	font-weight: 600;
+			// 	font-size: 20.9389px;
+			// 	line-height: 29px;
+			// 	color: #f4f8fb;
+
+			// 	a {
+			// 		text-decoration: none;
+			// 		color: #f4f8fb;
+			// 	}
+			// }
 
 			.ws {
-				position: absolute;
-				width: 142px;
-				height: 45px;
-				left: 663px;
-				top: 13.5px;
-				background: #252735;
-				box-shadow: 0px 13px 50px -9px rgba(0, 0, 0, 0.2);
+				display: flex;
+				align-items: center;
+				padding: 7px 13px;
 				border-radius: 10px;
+				background: #252735;
 
 				h3 {
 					font-family: "Poppins";
@@ -76,84 +101,82 @@ $use-color: #4c70ff;
 					font-size: 14.4px;
 					color: #f4f8fb;
 					line-height: 43px;
-					padding-left: 13px;
+					// padding-left: 13px;
+					padding-right: 21px;
+					cursor: pointer;
 
 					a {
 						text-decoration: none;
 						color: #f4f8fb;
+						padding-left: 0 !important;
 					}
 				}
-				img {
-					position: absolute;
-					left: 81.31%;
-					right: 29.9%;
-					top: 39.63%;
-				}
-			}
+				// img {
+				// 	position: absolute;
+				// 	left: 81.31%;
+				// 	right: 29.9%;
+				// 	top: 39.63%;
+				// }
+				// }
 
-			.rec {
-				position: absolute;
-				left: 84.4%;
-				right: 25.42%;
-				top: 34.11%;
-				bottom: 94.67%;
-			}
-			.dot {
-				position: absolute;
-				left: 85.9%;
-				right: 25.42%;
-				top: 34.11%;
-				bottom: 96.22%;
-			}
-			.pic {
-				position: absolute;
-				width: 36.49px;
-				height: 36.49px;
-				left: 89.2%;
-				top: 28%;
-				border-radius: 27.7607px;
-			}
-			.vectorr {
-				position: absolute;
-				right: 18.4%;
-				left: 95%;
-				top: 41.11%;
-				bottom: 94.78%;
+				.rec {
+					padding-right: 21px;
+					cursor: pointer;
+				}
+				// .dot {
+				// 	position: absolute;
+				// 	left: 85.9%;
+				// 	right: 25.42%;
+				// 	top: 34.11%;
+				// 	bottom: 96.22%;
+				// }
+				.pic {
+					padding-right: 22px;
+					// border-radius: 27.7607px;
+					cursor: pointer;
+				}
+				// .vectorr {
+				// 	position: absolute;
+				// 	right: 18.4%;
+				// 	left: 95%;
+				// 	top: 41.11%;
+				// 	bottom: 94.78%;
+				// }
 			}
 		}
 
-		.ht {
-			position: absolute;
-			width: 123px;
-			height: 43.67px;
-			left: 1298px;
-			top: 18.66px;
-			background: #ff7877;
-			box-shadow: 0px 11.587px 44.5652px -8.02174px rgba(0, 0, 0, 0.2);
-			border-radius: 8.91304px;
+		// .ht {
+		// 	position: absolute;
+		// 	width: 123px;
+		// 	height: 43.67px;
+		// 	left: 1298px;
+		// 	top: 18.66px;
+		// 	background: #ff7877;
+		// 	box-shadow: 0px 11.587px 44.5652px -8.02174px rgba(0, 0, 0, 0.2);
+		// 	border-radius: 8.91304px;
 
-			img {
-				position: absolute;
-				left: 17.12%;
-				right: 8.97%;
-				top: 28.86%;
-				bottom: 94.38%;
-			}
-			h3 {
-				text-align: center;
-				font-family: "Poppins";
-				font-weight: 400;
-				line-height: 41.3px;
-				font-size: 13.3696px;
-				color: #ffffff;
-				padding-left: 27px;
+		// 	img {
+		// 		position: absolute;
+		// 		left: 17.12%;
+		// 		right: 8.97%;
+		// 		top: 28.86%;
+		// 		bottom: 94.38%;
+		// 	}
+		// 	h3 {
+		// 		text-align: center;
+		// 		font-family: "Poppins";
+		// 		font-weight: 400;
+		// 		line-height: 41.3px;
+		// 		font-size: 13.3696px;
+		// 		color: #ffffff;
+		// 		padding-left: 27px;
 
-				a {
-					text-decoration: none;
-					color: #f4f8fb;
-				}
-			}
-		}
+		// 		a {
+		// 			text-decoration: none;
+		// 			color: #f4f8fb;
+		// 		}
+		// 	}
+		// }
 	}
 
 	.workspaces-body {
@@ -164,12 +187,12 @@ $use-color: #4c70ff;
 				position: absolute;
 				width: 100px;
 				height: 100px;
-				left: 96px;
+				left: 56px;
 				top: 127px;
 			}
 			.add {
 				position: absolute;
-				left: 8.2%;
+				left: 5.77%;
 				right: 88.54%;
 				top: 20.4%;
 				bottom: 78.22%;
@@ -183,7 +206,7 @@ $use-color: #4c70ff;
 				border-radius: 10.0952px;
 				width: 135px;
 				height: 28px;
-				left: 80.49px;
+				left: 40.29px;
 				top: 250.82px;
 				font-family: "Poppins";
 				font-weight: 400;
@@ -193,6 +216,33 @@ $use-color: #4c70ff;
 					text-decoration: none;
 					color: #f4f8fb;
 				}
+			}
+		}
+
+		.projects {
+			// box-sizing: border-box;
+
+			.my-project {
+				box-sizing: border-box;
+				position: absolute;
+				width: 294px;
+				height: 157px;
+				left: 226px;
+				top: 127px;
+				background: #1d1e27;
+				border: 1px solid #2e344e;
+				border-radius: 10px;
+			}
+			.create-project {
+				box-sizing: border-box;
+				position: absolute;
+				width: 185px;
+				height: 157px;
+				left: 536px;
+				top: 127px;
+				background: #1d1e27;
+				border: 1.6px dashed $use-color;
+				border-radius: 10px;
 			}
 		}
 	}
