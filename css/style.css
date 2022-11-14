@@ -116,6 +116,24 @@
   cursor: pointer;
 }
 
+.workspaces nav .ht {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: orange;
+  padding: 18px;
+  border-radius: 7px;
+  margin-right: 50px;
+}
+
+.workspaces nav .ht img {
+  padding-right: 8px;
+}
+
+.workspaces nav .ht h3 a {
+  color: #fff;
+}
+
 .workspaces .workspaces-body {
   display: -webkit-box;
   display: -ms-flexbox;

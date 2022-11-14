@@ -55,39 +55,6 @@ $use-color: #4c70ff;
 					padding-left: 22px;
 				}
 			}
-			// .icon {
-			// 	position: absolute;
-			// 	left: 3.66%;
-			// 	right: 79.9%;
-			// 	top: 26.62%;
-			// 	bottom: 94.1%;
-			// }
-			// .vector {
-			// 	position: absolute;
-			// 	left: 4.8%;
-			// 	right: 80.52%;
-			// 	top: 39.62%;
-			// 	bottom: 95.06%;
-			// }
-			// h1 {
-			// 	position: absolute;
-			// 	width: 110px;
-			// 	height: 29px;
-			// 	left: 80.05px;
-			// 	top: 23.93px;
-			// 	font-family: "Poppins";
-			// 	font-style: normal;
-			// 	font-weight: 600;
-			// 	font-size: 20.9389px;
-			// 	line-height: 29px;
-			// 	color: #f4f8fb;
-
-			// 	a {
-			// 		text-decoration: none;
-			// 		color: #f4f8fb;
-			// 	}
-			// }
-
 			.ws {
 				display: flex;
 				align-items: center;
@@ -111,72 +78,33 @@ $use-color: #4c70ff;
 						padding-left: 0 !important;
 					}
 				}
-				// img {
-				// 	position: absolute;
-				// 	left: 81.31%;
-				// 	right: 29.9%;
-				// 	top: 39.63%;
-				// }
-				// }
 
 				.rec {
 					padding-right: 21px;
 					cursor: pointer;
 				}
-				// .dot {
-				// 	position: absolute;
-				// 	left: 85.9%;
-				// 	right: 25.42%;
-				// 	top: 34.11%;
-				// 	bottom: 96.22%;
-				// }
 				.pic {
 					padding-right: 22px;
-					// border-radius: 27.7607px;
 					cursor: pointer;
 				}
-				// .vectorr {
-				// 	position: absolute;
-				// 	right: 18.4%;
-				// 	left: 95%;
-				// 	top: 41.11%;
-				// 	bottom: 94.78%;
-				// }
 			}
 		}
+		.ht {
+			display: flex;
+			background: orange;
+			padding: 18px;
+			border-radius: 7px;
+			margin-right: 50px;
 
-		// .ht {
-		// 	position: absolute;
-		// 	width: 123px;
-		// 	height: 43.67px;
-		// 	left: 1298px;
-		// 	top: 18.66px;
-		// 	background: #ff7877;
-		// 	box-shadow: 0px 11.587px 44.5652px -8.02174px rgba(0, 0, 0, 0.2);
-		// 	border-radius: 8.91304px;
-
-		// 	img {
-		// 		position: absolute;
-		// 		left: 17.12%;
-		// 		right: 8.97%;
-		// 		top: 28.86%;
-		// 		bottom: 94.38%;
-		// 	}
-		// 	h3 {
-		// 		text-align: center;
-		// 		font-family: "Poppins";
-		// 		font-weight: 400;
-		// 		line-height: 41.3px;
-		// 		font-size: 13.3696px;
-		// 		color: #ffffff;
-		// 		padding-left: 27px;
-
-		// 		a {
-		// 			text-decoration: none;
-		// 			color: #f4f8fb;
-		// 		}
-		// 	}
-		// }
+			img {
+				padding-right: 8px;
+			}
+			h3 {
+				a {
+					color: #fff;
+				}
+			}
+		}
 	}
 
 	.workspaces-body {
