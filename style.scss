@@ -25,14 +25,15 @@ $use-color: #4c70ff;
 		.nav-special {
 			display: flex;
 			justify-content: space-between;
+			height: 45px;
 			width: 998px;
-			/* margin: 0 auto; */
 			padding: 23px 34px;
 			/* flex: 2; */
-			margin-left: 50px;
+			margin-left: 220px;
 			background: #1d1e27;
 			box-shadow: 0px 5px 50px -30px rgba(0, 0, 0, 0.2);
 			border-radius: 0px 0px 20px 20px;
+
 			.logo {
 				display: flex;
 				align-items: center;
@@ -91,15 +92,25 @@ $use-color: #4c70ff;
 		}
 		.ht {
 			display: flex;
-			background: orange;
-			padding: 18px;
+			background: #ff7877;
+			padding: 8.5px 10px;
 			border-radius: 7px;
-			margin-right: 50px;
+			margin-right: 44px;
 
 			img {
-				padding-right: 8px;
+				padding-right: 5px;
+				padding-left: 1px;
+				padding-top: 5px;
+				width: 23.17px;
+				height: 18.54px;
 			}
 			h3 {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 13.3696px;
+				line-height: 26px;
+
 				a {
 					color: #fff;
 				}
@@ -108,41 +119,38 @@ $use-color: #4c70ff;
 	}
 
 	.workspaces-body {
-		display: flex;
+		// display: flex;
 
 		.elispe {
-			.elps {
-				position: absolute;
-				width: 100px;
-				height: 100px;
-				left: 56px;
-				top: 127px;
-			}
-			.add {
-				position: absolute;
-				left: 5.77%;
-				right: 88.54%;
-				top: 20.4%;
-				bottom: 78.22%;
-			}
-			h3 {
-				text-align: center;
-				line-height: 27px;
-				position: absolute;
-				background: #252735;
-				box-shadow: 0px 12.5273px 48.1818px -8.67273px rgba(0, 0, 0, 0.2);
-				border-radius: 10.0952px;
-				width: 135px;
-				height: 28px;
-				left: 40.29px;
-				top: 250.82px;
-				font-family: "Poppins";
-				font-weight: 400;
-				font-size: 12.4px;
+			margin-left: 62px;
+			margin-top: 50px;
 
-				a {
-					text-decoration: none;
-					color: #f4f8fb;
+			.elps {
+				padding-bottom: 9px;
+				padding-left: 18px;
+			}
+
+			.h3 {
+				justify-content: flex-start;
+				position: relative;
+
+				h3 {
+					text-align: center;
+					line-height: 27px;
+					background: #252735;
+					box-shadow: 0px 12.5273px 48.1818px -8.67273px rgba(0, 0, 0, 0.2);
+					border-radius: 10.0952px;
+					width: 135px;
+					height: 28px;
+					padding: 2px;
+					font-family: "Poppins";
+					font-weight: 400;
+					font-size: 12.4px;
+
+					a {
+						text-decoration: none;
+						color: #f4f8fb;
+					}
 				}
 			}
 		}
@@ -177,11 +185,8 @@ $use-color: #4c70ff;
 }
 
 .create {
-	position: absolute;
 	width: 988px;
 	height: 560px;
-	left: 226px;
-	top: 154px;
 	background: #1d1e27;
 	border-radius: 20px;
 	margin-bottom: 100px;
@@ -196,10 +201,6 @@ $use-color: #4c70ff;
 	}
 
 	form {
-		position: absolute;
-		top: 26%;
-		left: 17%;
-
 		h3 {
 			padding-bottom: 12px;
 			font-family: "Poppins";
@@ -255,10 +256,6 @@ $use-color: #4c70ff;
 	}
 
 	.buttons {
-		position: absolute;
-		top: 83%;
-		left: 40%;
-
 		img {
 			align-items: center;
 			width: 35px;
