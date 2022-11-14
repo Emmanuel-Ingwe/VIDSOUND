@@ -118,6 +118,7 @@ $use-color: #4c70ff;
 		}
 	}
 
+	// WORKSPACE BODY
 	.workspaces-body {
 		// display: flex;
 
@@ -183,13 +184,16 @@ $use-color: #4c70ff;
 		}
 	}
 }
+// END OF WORKSPACE
 
+// CREATE
 .create {
+	margin: 79px auto;
 	width: 988px;
 	height: 560px;
 	background: #1d1e27;
 	border-radius: 20px;
-	margin-bottom: 100px;
+	margin-bottom: 10px;
 
 	h1 {
 		font-family: "Poppins";
@@ -197,16 +201,19 @@ $use-color: #4c70ff;
 		font-size: 22px;
 		color: #ffffff;
 		text-align: center;
-		padding-top: 44px;
+		padding: 44px 0;
 	}
 
-	form {
+	.form {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
 		h3 {
 			padding-bottom: 12px;
 			font-family: "Poppins";
 			font-weight: 400;
 			font-size: 14.6858px;
-			line-height: 15px;
 			color: #f4f8fb;
 		}
 		input {
@@ -256,12 +263,16 @@ $use-color: #4c70ff;
 	}
 
 	.buttons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
 		img {
-			align-items: center;
 			width: 35px;
 			height: 10px;
-			padding-right: 9px;
+			padding-top: 3.4px;
 		}
+
 		.btn-back {
 			height: 0.1px;
 			font-family: "Poppins";
@@ -270,11 +281,13 @@ $use-color: #4c70ff;
 			background: none;
 			border: none;
 			line-height: 7px;
-			padding-right: 47px;
+			margin-left: 50px;
+
 			a {
 				color: #6c6f92;
 			}
 		}
+
 		.btn-create {
 			width: 184.48px;
 			height: 45.41px;
@@ -285,9 +298,12 @@ $use-color: #4c70ff;
 			font-weight: 400;
 			font-size: 14.8345px;
 			color: #fff;
+			margin-left: 70px;
+
 			a {
 				color: #fff;
 			}
 		}
 	}
 }
+// END OF CREATE

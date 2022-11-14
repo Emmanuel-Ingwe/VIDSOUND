@@ -210,11 +210,12 @@
 }
 
 .create {
+  margin: 79px auto;
   width: 988px;
   height: 560px;
   background: #1d1e27;
   border-radius: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .create h1 {
@@ -223,19 +224,30 @@
   font-size: 22px;
   color: #ffffff;
   text-align: center;
-  padding-top: 44px;
+  padding: 44px 0;
 }
 
-.create form h3 {
+.create .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.create .form h3 {
   padding-bottom: 12px;
   font-family: "Poppins";
   font-weight: 400;
   font-size: 14.6858px;
-  line-height: 15px;
   color: #f4f8fb;
 }
 
-.create form input {
+.create .form input {
   width: 657px;
   height: 51.57px;
   background: #171821;
@@ -248,19 +260,19 @@
   margin-bottom: 44px;
 }
 
-.create form .join-input h3 {
+.create .form .join-input h3 {
   padding-bottom: 25px;
   font-family: "Poppins";
   font-weight: 400;
   font-size: 14.6858px;
 }
 
-.create form .join-input h3 a {
+.create .form .join-input h3 a {
   color: #4c70ff;
   text-decoration: none;
 }
 
-.create form .join-input input {
+.create .form .join-input input {
   width: 307.49px;
   height: 50.57px;
   background: #171821;
@@ -272,7 +284,7 @@
   margin-right: 20px;
 }
 
-.create form .join-input .in-2 {
+.create .form .join-input .in-2 {
   width: 307.49px;
   height: 50.57px;
   background: #171821;
@@ -283,13 +295,22 @@
   outline: none;
 }
 
-.create .buttons img {
+.create .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.create .buttons img {
   width: 35px;
   height: 10px;
-  padding-right: 9px;
+  padding-top: 3.4px;
 }
 
 .create .buttons .btn-back {
@@ -300,7 +321,7 @@
   background: none;
   border: none;
   line-height: 7px;
-  padding-right: 47px;
+  margin-left: 50px;
 }
 
 .create .buttons .btn-back a {
@@ -317,6 +338,7 @@
   font-weight: 400;
   font-size: 14.8345px;
   color: #fff;
+  margin-left: 70px;
 }
 
 .create .buttons .btn-create a {
