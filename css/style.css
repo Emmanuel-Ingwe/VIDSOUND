@@ -307,10 +307,15 @@
           justify-content: center;
 }
 
+.create .buttons .img-btn {
+  margin-left: 53px;
+}
+
 .create .buttons img {
   width: 35px;
   height: 10px;
   padding-top: 3.4px;
+  padding-right: 10px;
 }
 
 .create .buttons .btn-back {
@@ -321,7 +326,6 @@
   background: none;
   border: none;
   line-height: 7px;
-  margin-left: 50px;
 }
 
 .create .buttons .btn-back a {
@@ -338,7 +342,7 @@
   font-weight: 400;
   font-size: 14.8345px;
   color: #fff;
-  margin-left: 70px;
+  margin-left: 50px;
 }
 
 .create .buttons .btn-create a {
