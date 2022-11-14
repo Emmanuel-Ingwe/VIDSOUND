@@ -120,7 +120,7 @@ $use-color: #4c70ff;
 
 	// WORKSPACE BODY
 	.workspaces-body {
-		// display: flex;
+		display: flex;
 
 		.elispe {
 			margin-left: 62px;
@@ -158,26 +158,36 @@ $use-color: #4c70ff;
 
 		// HOME
 		.projects {
-			// box-sizing: border-box;
+			display: flex;
+			margin-left: 48px;
+			margin-top: 36px;
 
 			.my-project {
-				box-sizing: border-box;
-				position: absolute;
+				display: block;
 				width: 294px;
 				height: 157px;
-				left: 226px;
-				top: 127px;
 				background: #1d1e27;
 				border: 1px solid #2e344e;
 				border-radius: 10px;
+				margin-right: 16px;
+
+				.p-items {
+					padding-left: 30px;
+					// padding-bottom: 13px;
+					padding-top: 22px;
+
+					img {
+						padding-bottom: 15px;
+					}
+					h3 {
+						padding-bottom: 7px;
+					}
+				}
 			}
 			.create-project {
 				box-sizing: border-box;
-				position: absolute;
 				width: 185px;
 				height: 157px;
-				left: 536px;
-				top: 127px;
 				background: #1d1e27;
 				border: 1.6px dashed $use-color;
 				border-radius: 10px;

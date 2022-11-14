@@ -146,6 +146,12 @@
   color: #fff;
 }
 
+.workspaces .workspaces-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .workspaces .workspaces-body .elispe {
   margin-left: 62px;
   margin-top: 50px;
@@ -183,27 +189,42 @@
   color: #f4f8fb;
 }
 
+.workspaces .workspaces-body .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 48px;
+  margin-top: 36px;
+}
+
 .workspaces .workspaces-body .projects .my-project {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  position: absolute;
+  display: block;
   width: 294px;
   height: 157px;
-  left: 226px;
-  top: 127px;
   background: #1d1e27;
   border: 1px solid #2e344e;
   border-radius: 10px;
+  margin-right: 16px;
+}
+
+.workspaces .workspaces-body .projects .my-project .p-items {
+  padding-left: 30px;
+  padding-top: 22px;
+}
+
+.workspaces .workspaces-body .projects .my-project .p-items img {
+  padding-bottom: 15px;
+}
+
+.workspaces .workspaces-body .projects .my-project .p-items h3 {
+  padding-bottom: 7px;
 }
 
 .workspaces .workspaces-body .projects .create-project {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  position: absolute;
   width: 185px;
   height: 157px;
-  left: 536px;
-  top: 127px;
   background: #1d1e27;
   border: 1.6px dashed #4c70ff;
   border-radius: 10px;
