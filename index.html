@@ -29,7 +29,25 @@
 						<a href=""
 							><img class="pic" src="/Icons/profile image.png" alt="WOman"
 						/></a>
-						<img class="vectorr" src="/Icons/Vectorr.png" alt="" />
+						<div class="dropdown">
+							<img
+								onclick="myFunction()"
+								class="dropbtn"
+								class="vectorr"
+								src="/Icons/Vectorr.png"
+								alt=""
+							/>
+							<div id="myDropdown" class="dropdown-content">
+								<h5>Reseller</h5>
+								<a href="#home">Agency</a>
+								<a href="#about">Custom Domain</a>
+								<a href="#contact">Settings</a>
+								<div class="sign-out">
+									<a class="SO-link" href="#contact">Sign Out</a>
+									<img src="/Icons/Vector 60.png" alt="" />
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="ht">
@@ -48,5 +66,25 @@
 				</div>
 			</div>
 		</section>
+
+		<script>
+			function myFunction() {
+				document.getElementById("myDropdown").classList.toggle("show");
+			}
+
+			// Close the dropdown if the user clicks outside of it
+			window.onclick = function (event) {
+				if (!event.target.matches(".dropbtn")) {
+					var dropdowns = document.getElementsByClassName("dropdown-content");
+					var i;
+					for (i = 0; i < dropdowns.length; i++) {
+						var openDropdown = dropdowns[i];
+						if (openDropdown.classList.contains("show")) {
+							openDropdown.classList.remove("show");
+						}
+					}
+				}
+			};
+		</script>
 	</body>
 </html>

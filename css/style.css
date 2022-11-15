@@ -488,3 +488,57 @@
 .show {
   display: block;
 }
+
+.onboarding {
+  height: 128vh;
+}
+
+.onboarding .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 46px;
+}
+
+.onboarding .logo a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.9389px;
+  padding-left: 10px;
+  color: #f4f8fb;
+}
+
+.onboarding .onboarding-project {
+  margin-top: 35.3px;
+  width: 1132px;
+  height: 759px;
+  background: linear-gradient(230deg, rgba(76, 110, 251, 0.2) 2.1%, rgba(29, 30, 39, 0) 23.06%), #1d1e27;
+  border-radius: 20px;
+}
+
+.onboarding .onboarding-project h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.7407px;
+  line-height: 15px;
+  padding-bottom: 15.5px;
+}
+
+.onboarding .onboarding-project .form input {
+  width: 557.22px;
+  height: 49.52px;
+  background: #171821;
+  border: 1.04938px solid rgba(235, 235, 235, 0.12);
+  -webkit-box-shadow: 0px 19.9383px 41.9753px -16.7901px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 19.9383px 41.9753px -16.7901px rgba(0, 0, 0, 0.1);
+  border-radius: 5.24691px;
+  margin-bottom: 44px;
+}
