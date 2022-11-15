@@ -485,6 +485,59 @@ $link-color: #3b3d53;
 			}
 		}
 	}
+	// btn
+	.btn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.btn1 {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 133px;
+			height: 48px;
+			background: #4c70ff;
+			color: white;
+			border: 0.513516px solid rgba(210, 210, 210, 0.17);
+			border-radius: 5.33032px;
+			transform: translateX(8px);
+
+			img {
+				padding-right: 11px;
+			}
+			h4 {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 15.6806px;
+				line-height: 7px;
+			}
+		}
+		.btn2 {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 133px;
+			height: 48px;
+			color: white;
+			background: #171821;
+			border: 0.513516px solid rgba(210, 210, 210, 0.17);
+			border-radius: 5.33032px;
+			img {
+				padding-right: 11px;
+			}
+			h4 {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 15.6806px;
+				line-height: 7px;
+				color: #7d7d7d;
+			}
+		}
+	}
+	// end btn
 }
 
 // END OF ONBOARDING
