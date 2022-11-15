@@ -435,7 +435,7 @@ $link-color: #3b3d53;
 
 // ONBOARDING
 .onboarding {
-	height: 128vh;
+	height: 130vh;
 
 	.logo {
 		display: flex;
@@ -456,7 +456,7 @@ $link-color: #3b3d53;
 	.onboarding-project {
 		margin-top: 35.3px;
 		width: 1132px;
-		height: 759px;
+		height: 777px;
 		background: linear-gradient(
 				230deg,
 				rgba(76, 110, 251, 0.2) 2.1%,
@@ -492,16 +492,23 @@ $link-color: #3b3d53;
 		justify-content: center;
 
 		.btn1 {
+			cursor: pointer;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			width: 133px;
 			height: 48px;
-			background: #4c70ff;
-			color: white;
+			background: #171821;
 			border: 0.513516px solid rgba(210, 210, 210, 0.17);
 			border-radius: 5.33032px;
 			transform: translateX(8px);
+			transition: 0.5s;
+			color: #7d7d7d;
+
+			&:hover {
+				background: #4c70ff;
+				color: white;
+			}
 
 			img {
 				padding-right: 11px;
@@ -515,15 +522,23 @@ $link-color: #3b3d53;
 			}
 		}
 		.btn2 {
+			cursor: pointer;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			width: 133px;
 			height: 48px;
-			color: white;
 			background: #171821;
 			border: 0.513516px solid rgba(210, 210, 210, 0.17);
 			border-radius: 5.33032px;
+			color: #7d7d7d;
+			transition: 0.5s;
+
+			&:hover {
+				background: #4c70ff;
+				color: white;
+			}
+
 			img {
 				padding-right: 11px;
 			}
@@ -533,11 +548,95 @@ $link-color: #3b3d53;
 				font-weight: 400;
 				font-size: 15.6806px;
 				line-height: 7px;
-				color: #7d7d7d;
+			}
+		}
+		.btn22 {
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 133px;
+			height: 48px;
+			background: #4c70ff;
+			border: 0.513516px solid rgba(210, 210, 210, 0.17);
+			border-radius: 5.33032px;
+			color: #e5e2e2;
+			transition: 0.5s;
+
+			&:hover {
+				color: white;
 			}
 		}
 	}
 	// end btn
+
+	.onboarding-grid {
+		display: grid;
+		grid-template-columns: auto auto auto auto auto;
+		grid-gap: 18.2px;
+		padding: 52px 72px;
+
+		div {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			width: 183.38px;
+			height: 177.02px;
+			background: #171821;
+			border-radius: 6.59915px;
+			transition: 0.6s;
+
+			&:hover {
+				border: 1px solid #4c70ff;
+
+				.aud {
+					background: #4c70ff;
+				}
+			}
+
+			.aud {
+				border-radius: 50%;
+				width: 87.98px;
+				height: 87.98px;
+				background: #252735;
+				margin-bottom: 24.8px;
+			}
+
+			h5 {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 13.8257px;
+				line-height: 15px;
+				color: #f4f8fb;
+			}
+		}
+	}
+
+	.btnn {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.btn-create {
+			width: 184.48px;
+			height: 45.41px;
+			background: #4c70ff;
+			border-radius: 6px;
+			font-family: "Poppins";
+			font-style: normal;
+			font-weight: 400;
+			font-size: 14.8345px;
+			color: #fff;
+			margin-left: 50px;
+
+			a {
+				color: #fff;
+			}
+		}
+	}
 }
 
 // END OF ONBOARDING

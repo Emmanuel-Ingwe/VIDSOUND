@@ -490,7 +490,7 @@
 }
 
 .onboarding {
-  height: 128vh;
+  height: 130vh;
 }
 
 .onboarding .logo {
@@ -518,7 +518,7 @@
 .onboarding .onboarding-project {
   margin-top: 35.3px;
   width: 1132px;
-  height: 759px;
+  height: 777px;
   background: linear-gradient(230deg, rgba(76, 110, 251, 0.2) 2.1%, rgba(29, 30, 39, 0) 23.06%), #1d1e27;
   border-radius: 20px;
 }
@@ -556,6 +556,7 @@
 }
 
 .onboarding .btn .btn1 {
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -567,12 +568,19 @@
           justify-content: center;
   width: 133px;
   height: 48px;
-  background: #4c70ff;
-  color: white;
+  background: #171821;
   border: 0.51352px solid rgba(210, 210, 210, 0.17);
   border-radius: 5.33032px;
   -webkit-transform: translateX(8px);
           transform: translateX(8px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #7d7d7d;
+}
+
+.onboarding .btn .btn1:hover {
+  background: #4c70ff;
+  color: white;
 }
 
 .onboarding .btn .btn1 img {
@@ -588,6 +596,7 @@
 }
 
 .onboarding .btn .btn2 {
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -599,10 +608,17 @@
           justify-content: center;
   width: 133px;
   height: 48px;
-  color: white;
   background: #171821;
   border: 0.51352px solid rgba(210, 210, 210, 0.17);
   border-radius: 5.33032px;
+  color: #7d7d7d;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.onboarding .btn .btn2:hover {
+  background: #4c70ff;
+  color: white;
 }
 
 .onboarding .btn .btn2 img {
@@ -615,5 +631,115 @@
   font-weight: 400;
   font-size: 15.6806px;
   line-height: 7px;
-  color: #7d7d7d;
+}
+
+.onboarding .btn .btn22 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 133px;
+  height: 48px;
+  background: #4c70ff;
+  border: 0.51352px solid rgba(210, 210, 210, 0.17);
+  border-radius: 5.33032px;
+  color: #e5e2e2;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.onboarding .btn .btn22:hover {
+  color: white;
+}
+
+.onboarding .onboarding-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+  grid-gap: 18.2px;
+  padding: 52px 72px;
+}
+
+.onboarding .onboarding-grid div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 183.38px;
+  height: 177.02px;
+  background: #171821;
+  border-radius: 6.59915px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.onboarding .onboarding-grid div:hover {
+  border: 1px solid #4c70ff;
+}
+
+.onboarding .onboarding-grid div:hover .aud {
+  background: #4c70ff;
+}
+
+.onboarding .onboarding-grid div .aud {
+  border-radius: 50%;
+  width: 87.98px;
+  height: 87.98px;
+  background: #252735;
+  margin-bottom: 24.8px;
+}
+
+.onboarding .onboarding-grid div h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.8257px;
+  line-height: 15px;
+  color: #f4f8fb;
+}
+
+.onboarding .btnn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.onboarding .btnn .btn-create {
+  width: 184.48px;
+  height: 45.41px;
+  background: #4c70ff;
+  border-radius: 6px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.8345px;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.onboarding .btnn .btn-create a {
+  color: #fff;
 }
