@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>VIDSOUND || Workspaces</title>
+	</head>
+	<body>
+		<section class="workspaces">
+			<nav>
+				<div class="nav-special">
+					<div class="logo">
+						<img class="icon" src="/Icons/logo.png" alt="logo" />
+						<a href="index.html"> VIDSOUND</a>
+					</div>
+					<div class="right-nav">
+						<div class="ws">
+							<h3><a href="">Workspaces</a></h3>
+							<img src="/Icons/Vectorr.png" alt="" />
+						</div>
+						<a href="#"
+							><img
+								class="rec"
+								src="/Icons/notification.png"
+								alt="notification"
+						/></a>
+						<a href=""
+							><img class="pic" src="/Icons/profile image.png" alt="WOman"
+						/></a>
+						<div class="dropdown">
+							<img
+								onclick="myFunction()"
+								class="dropbtn"
+								class="vectorr"
+								src="/Icons/Vectorr.png"
+								alt=""
+							/>
+							<div id="myDropdown" class="dropdown-content">
+								<h5>Reseller</h5>
+								<a href="#home">Agency</a>
+								<a href="#about">Custom Domain</a>
+								<a href="#contact">Settings</a>
+								<div class="sign-out">
+									<a class="SO-link" href="#contact">Sign Out</a>
+									<img src="/Icons/Vector 60.png" alt="" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ht">
+					<img src="/Icons/Vectorcap.png" alt="" />
+					<h3><a href="">How To?</a></h3>
+				</div>
+			</nav>
+
+			<div class="extract-grid">
+				<div class="side">
+					<div>
+						<img src="/Icons/home.png" alt="" />
+						<h5>Home</h5>
+					</div>
+					<div>
+						<img src="/Icons/extract.png" alt="" />
+						<h5>Extract</h5>
+					</div>
+					<div>
+						<img src="/Icons/convert.svg" alt="" />
+						<h5>Convert</h5>
+					</div>
+					<div>
+						<img src="/Icons/export.svg" alt="" />
+						<h5>Export</h5>
+					</div>
+				</div>
+				<div class="ex-grid">
+					<div>
+						<div class="extract-img">
+							<img src="/Icons/image.png" alt="" />
+						</div>
+						<h5>Image</h5>
+					</div>
+					<div>
+						<div class="extract-img">
+							<img src="/Icons/image.png" alt="" />
+						</div>
+						<h5>Image</h5>
+					</div>
+					<div>
+						<div class="extract-img">
+							<img src="/Icons/image.png" alt="" />
+						</div>
+						<h5>Image</h5>
+					</div>
+					<div>
+						<div class="extract-img">
+							<img src="/Icons/image.png" alt="" />
+						</div>
+						<h5>Image</h5>
+					</div>
+					<div>
+						<div class="extract-img">
+							<img src="/Icons/image.png" alt="" />
+						</div>
+						<h5>Image</h5>
+					</div>
+					<div>
+						<div class="extract-img">
+							<img src="/Icons/image.png" alt="" />
+						</div>
+						<h5>Image</h5>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script>
+			function myFunction() {
+				document.getElementById("myDropdown").classList.toggle("show");
+			}
+
+			// Close the dropdown if the user clicks outside of it
+			window.onclick = function (event) {
+				if (!event.target.matches(".dropbtn")) {
+					var dropdowns = document.getElementsByClassName("dropdown-content");
+					var i;
+					for (i = 0; i < dropdowns.length; i++) {
+						var openDropdown = dropdowns[i];
+						if (openDropdown.classList.contains("show")) {
+							openDropdown.classList.remove("show");
+						}
+					}
+				}
+			};
+		</script>
+	</body>
+</html>
