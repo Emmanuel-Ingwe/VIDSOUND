@@ -1,5 +1,6 @@
 $bg-color: #1e1e1e;
 $use-color: #4c70ff;
+$link-color: #3b3d53;
 
 * {
 	margin: 0;
@@ -222,7 +223,10 @@ $use-color: #4c70ff;
 						font-size: 15px;
 						line-height: 20px;
 						text-align: center;
-						color: #3b3d53;
+
+						a {
+							color: #3b3d53;
+						}
 					}
 				}
 			}
@@ -373,26 +377,55 @@ $use-color: #4c70ff;
 }
 
 .dropdown-content {
-	float: right;
 	display: none;
 	position: absolute;
 	background-color: #f1f1f1;
-	min-width: 160px;
+	width: 154px;
 	overflow: auto;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	transform: translateX(-65%);
 	z-index: 1;
-	margin-right: 0px;
+	background: #252735;
+	border-radius: 8px;
+
+	h5 {
+		color: white;
+		padding-left: 17px;
+		padding-right: 26px;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		display: block;
+		border-bottom: 1px solid $link-color;
+		font-family: "Poppins";
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 29px;
+	}
+
+	.sign-out {
+		display: flex;
+
+		.SO-link {
+			border: none;
+			padding-bottom: 7px;
+		}
+		img {
+			padding: 10px;
+			cursor: progress;
+		}
+	}
 }
 
 .dropdown-content a {
-	color: black;
-	padding: 12px 16px;
+	color: $link-color;
+	padding-bottom: 6px;
+	padding-top: 6px;
 	text-decoration: none;
 	display: block;
-}
-
-.dropdown a:hover {
-	background-color: #ddd;
+	border-bottom: 1px solid $link-color;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
 }
 
 .show {
