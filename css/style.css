@@ -744,3 +744,55 @@
 .onboarding .btnn .btn-create a {
   color: #fff;
 }
+
+.extract-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 26px;
+}
+
+.extract-grid .side div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 114.62px;
+  height: 110.64px;
+  background: #1d1e27;
+  border-radius: 10px;
+  margin-bottom: 28.3px;
+  color: #444761;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.extract-grid .side div:hover {
+  background: #4c70ff;
+  color: #fff;
+}
+
+.extract-grid .side div h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 15px;
+  padding-top: 17px;
+}
+
+.extract-grid .side div img {
+  padding-top: 7px;
+}

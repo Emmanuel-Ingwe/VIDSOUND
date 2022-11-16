@@ -641,3 +641,46 @@ $link-color: #3b3d53;
 }
 
 // END OF ONBOARDING
+
+// EXTRACT
+.extract-grid {
+	display: flex;
+	margin-top: 20px;
+	margin-left: 26px;
+
+	.side {
+		div {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			box-sizing: border-box;
+			width: 114.62px;
+			height: 110.64px;
+			background: #1d1e27;
+			border-radius: 10px;
+			margin-bottom: 28.3px;
+			color: #444761;
+			transition: 0.5s ease;
+
+			&:hover {
+				background: $use-color;
+				color: #fff;
+			}
+
+			h5 {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 600;
+				font-size: 15px;
+				line-height: 15px;
+				padding-top: 17px;
+			}
+
+			img {
+				padding-top: 7px;
+			}
+		}
+	}
+}
+// END OF EXTRACT
